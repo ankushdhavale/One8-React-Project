@@ -1,0 +1,16 @@
+
+input{
+    border: 0px solid;
+    color: #CCC;
+    border: 0;
+    outline: none;
+}
+
+@media screen and (min-width:400px) {
+  .logo-image {
+      /* width:1rem; */
+    }
+  .NavBar{
+    gap: 2rem;
+  }
+  }

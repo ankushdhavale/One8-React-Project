@@ -1,0 +1,67 @@
+.homeImage-container {
+    height: 35rem;
+    width: 100vw;
+  }
+.homeImage {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+.home-text{
+    bottom: 4rem;
+    left: 3rem;
+}
+
+.viratpng{
+    bottom: 6rem;
+    right: 3rem;
+    width:32em;
+}
+
+.homeButton:hover{
+  color: rgb(218, 147, 15);
+  font: bold;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.sub-container{
+  top: -20rem;
+}
+.sub-head {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  font: bold;
+  margin-top: 2rem;
+} 
+
+.brands-container {
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  margin: 7rem 0;
+  flex-wrap: wrap; 
+}
+.brand-img {
+  height: 12rem;
+  width: 12rem;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.2s ease, -webkit-transform 0.2s ease;
+  cursor: pointer;
+}
+.brand-img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 0.8rem 0 var(--card-shadow);
+}
+
+
+@media only screen and (max-width:768px) {
+  .viratpng{
+    width: 20em;
+    bottom:13em;
+    opacity: 0.9;
+  }
+}

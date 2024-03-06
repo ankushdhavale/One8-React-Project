@@ -1,0 +1,17 @@
+@media screen and (min-width:400px) {
+    .NavLinks{
+        gap:2rem;
+    }
+    .Explore{
+      width:1rem;
+    }
+    .WishList{
+        width:1rem;
+      }
+    .Cart{
+        width:1rem;
+      }
+    .Home{
+        width:1rem;
+      }
+  }
